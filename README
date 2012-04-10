@@ -1,0 +1,16 @@
+You can update this file (which it may already be) to use a passed in parameter.
+
+There are many tools out there which can pass in the currently active file to a command.
+
+This is helpful if you have say Notepad++ or something similar, you could setup a shortcut key and automatically update the withs in your file.
+
+The main idea for this comes from when I have been writing Android projects, I can use a shortcut key combo and automatically update the
+imports. I liked that, but didn't have the same option for an ada project. Thus this project was born.
+
+V1. Using the Test file we can extract out the package names.
+
+Known To not work in the case of using "use" statements, which to me seems like a poor coding practice, however perhaps at some point,
+adding to the script so it knows what functions/procedures are available would allow this to be better handled.
+
+
+
